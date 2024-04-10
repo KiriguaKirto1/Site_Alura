@@ -2,175 +2,90 @@
     margin: 0;
     padding: 0;
 }
- 
-.cabecalho{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    width: 1440px;
-    height: 131px;
-    left: 0px;
-    padding: 5px 0;
+body {
+    font-family: 'Irish Grover', sans-serif;
+}
+.cabecalho {
     background-color: #385458;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
 }
 
 .cabecalho-imagem{
     width: 10%;
 }
 
-.cabecalho-lista{
-    list-style: none;
-    font-family: 'Irish Grover';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 44px;
-    color: #FFFFFF;  
-}
-.cabecalho-lista-item-1{
-    position: absolute;
-    width: 116px;
-    height: 40px;
-    left: 1100px;
-    top: 60px;
-    color: white;
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 30px;
 }
 
-.cabecalho-lista-item-2{
-    position: absolute;
-    width: -516px;
-    height: 40px;
-    left: 118px;
-    top: 60px;
-    color: white;
-}
-.filme{ /*Corpo*/
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 1440px;
-    height: 1440px;
-    left: 0px;
-    top: 141px;
-    padding: 24px 0;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 24px;
+.filmes{
     background: linear-gradient(180deg, #385458 0%, #4EE9D6 100%);
-    color: #FFEE53;
-}
-
-.cartaz{
-    position: absolute;
-    width: 210px;
-    height: 58px;
-    left: 610px;
-    top: 63px;
     padding: 24px 0;
-    font-family: 'Libre Baskerville' ;
+}
+.filme-imagem{
+    width: 180px;
 }
 
-.filme-1{ /*Divertidamente*/
-    position: absolute;
-    width: 169px;
-    height: 34px;
-    left: 125px;
-    top: 500px;
+.filme-div{
+    text-align: center;
+    padding: 10px 0;
 }
 
-.filme-2{ /*Garfield*/
-    position: absolute;
-    width: 301px;
-    height: 34px;
-    left: 420px;
-    top: 500px;
+.filme-titulo{
+    color: #FFEE53;
+    font-family: 'Rakkas';
+    text-align: center;
+    font-size: 48px;
+    padding: 50px 0;
 }
 
-.filme-3{ /*Farofefiros*/
-    position: absolute;
-    width: 301px;
-    height: 34px;
-    left: 830px;
-    top: 500px;
+.filme-todos{
+    color: #FFEE53;
+    justify-content: center;
+    display: grid;
+    font-size: 20px;
+    grid-template-columns: 20% 20% 20%;
 }
 
-.filme-4{ /*Kunf fu*/
-    position: absolute;
-    width: 301px;
-    height: 34px;
-    left: 1170px;
-    top: 500px;
+.cidade-imagem{
+    width: 200px;
 }
 
-.divertidamente{
-    position: absolute;
-    width: 163px;
-    height: 278px;
-    left: 125px;
-    top: 190px;
-    border-radius: 25px;
-}
-
-.garfield{
-    position: absolute;
-    width: 163px;
-    height: 278px;
-    left: 455px;
-    top: 190px;
-    border-radius: 25px;
-}
-
-.farofeiros{
-    position: absolute;
-    width: 164px;
-    height: 278px;
-    left: 820px;
-    top: 190px;
-    border-radius: 25px;
-}
-
-.kung-fu{
-    position: absolute;
-    width: 162px;
-    height: 278px;
-    left: 1170px;
-    top: 190px;
-    border-radius: 25px;
+.cidade-div{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .cidade-titulo{
-    position: absolute;
+    color: #FFEE53;
     font-family: 'Rakkas';
-    font-weight: 100;
-    left: 425px;
-    top: 836px;
-    font-weight: 400;
-    font-size: 80px;
-    line-height: 68px;
-    color: #000000;
+    text-align: center;
+    font-size: 48px;
+    padding: 50px 0;
 }
 
-.googlemaps{
-    position: absolute;
-    background: white;
-    border-radius: 10px;
-    width: 653px;
-    height: 518px;
-    left: 384px;
-    top: 1010px;
+.cidade-todos{
+    display: grid;
+    font-size: 24px;
+    font-family: 'Libre Baskerville';
+    justify-content: center;
+    border-radius: 50px;
+    grid-template-columns: 20% 20% 20%;
 }
 .rodape{
-    position: absolute;
+    background-color: #0E5E69;
     text-align: center;
-    width: 1440px;
-    left: 0px;
-    top: 1600px;
-    background: #0E5E69;
 }
 
-.rodape-alurastart{
-    width: 20%;
+.rodape-imagem{
     height: 60px;
+    padding: 12px 0;
+   
 }
